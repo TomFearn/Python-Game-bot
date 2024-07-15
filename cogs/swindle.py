@@ -5,12 +5,8 @@ import discord
 from discord.ext import commands
 import asyncio
 
-#misc
-
-
 class exitError(Exception):
   pass
-
 
 #roll dice
 def roll_Dice(num_sides: int, num_dice: int):
